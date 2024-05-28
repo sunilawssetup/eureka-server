@@ -1,0 +1,15 @@
+#file: noinspection undefined
+# noinspection undefined
+spring:
+  application:
+    name: PAYMENT-API
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+
+
+server:
+  port: 8761
